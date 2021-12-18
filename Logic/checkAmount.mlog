@@ -1,0 +1,7 @@
+sensor stored foundation1 @plastanium
+jump 5 greaterThan stored 5000
+control enabled unloader1 0 0 0 0
+control enabled unloader2 0 0 0 0
+end
+control enabled unloader1 1 0 0 0
+control enabled unloader2 1 0 0 0

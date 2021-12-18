@@ -1,0 +1,7 @@
+# Replace 50 (line 6) with the number of miliseconds between switching resources
+# If you want to alternate between resources copythe 4 lines below and paste it under these 4 lines 
+# (Don't forget to replace the name after the @)
+set time 0
+op add time time 1
+jump 1 lessThan time 50
+control configure unloader1 @copper 0 0 0
