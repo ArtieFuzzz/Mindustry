@@ -1,5 +1,5 @@
 sensor fluid reactor1 @cryofluid
-jump 5 greaterThan fluid 0
+jump 5 greaterThan fluid 10
 control enabled reactor1 0 0 0 0
 control enabled conveyor1 0 0 0 0
 end
